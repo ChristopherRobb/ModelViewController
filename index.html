@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+
+
+<title>Guest Data - MVC</title>
+
+<style>
+
+	.flex-container{
+			
+			display:flex;
+			flex-direction:column;
+			
+			background-color:DodgerBlue;
+	
+	
+			}
+			
+			
+	.flex-container > div{
+		background-color: grey;
+		margin:10px;
+		padding:10px;
+		font-size:20px;
+	
+	}
+
+	body{
+			margin:0;
+			}
+	
+	
+	
+	
+		*{
+			box-sizing:border-box;
+		}
+		
+header{
+		background-color: black;
+		padding:30px;
+		text-align:center;
+		font-size:35px;
+		color:white;
+		
+		}
+		
+		a:link{
+		background-color: black;
+		color: white;
+		padding: 14px 25px;
+		text-align:center;
+		text-decoration:none;
+		display: inline-block;
+		
+		}
+
+
+</style>
+
+
+
+</head>
+
+
+
+
+
+
+<body>
+
+<header>MVC- Model View Controller Design Pattern</header>
+
+
+<br/>
+
+
+
+<div class=flex-container>
+
+<div>
+Servlet does the business logic<br/>
+
+JSP handles the presentation view<br/>
+
+</div>
+
+<div>
+<ol>
+<li>Request Coming in From Browser</li>
+<li>Went to the Servlet "mvc_servlet.java"</li>
+<li>Made it to the Model "GuestDataUtil.java"</li>
+<li>Sent data to JSP "view_guest.jsp"</li>
+<li>Send back results to browser</li>
+
+
+</ol>
+</div>
+
+<div>
+<a href="mvc_servlet">Click Here</a>
+
+</div>
+
+</div>
+
+
+<br/>
+
+
+
+
+
+</body>
+</html>
